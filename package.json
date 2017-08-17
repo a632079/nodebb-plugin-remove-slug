@@ -1,0 +1,31 @@
+{
+  "name": "nodebb-plugin-remove-slug",
+  "version": "0.0.1",
+  "description": "Remove Slug String.",
+  "main": "lib.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a632079/nodebb-plugin-remove-slug"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "remove",
+    "slug"
+  ],
+  "author": {
+    "name": "a632079",
+    "email": "a632079@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a632079/nodebb-plugin-remove-slug/issues"
+  },
+  "readmeFilename": "README.md",
+  "nbbpm": {
+    "compatibility": "^1.2.0"
+  },
+  "dependencies": {
+    "mysql":"^2.14.0"
+  }
+}

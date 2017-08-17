@@ -1,0 +1,27 @@
+{
+    "id": "nodebb-plugin-remove-slug",
+    "url": "https://github.com/a632079/nodebb-plugin-remove-slug",
+    "library": "./library.js",
+    "hooks": [
+        {
+            "hook": "filter:topic.create",
+            "method": "createTopic"
+        },
+        {
+            "hook": "filter:topic.edit",
+            "method": "editTopic"
+        },
+        {
+            "hook": "filter:category.create",
+            "method": "categoryCreate"
+        },
+        {
+            "hook": "filter:category.update",
+            "method": "categoryUpdate"
+        },
+        {
+            "hook": "filter:user.create",
+            "method": "userCreate"
+        }
+    ]
+}
