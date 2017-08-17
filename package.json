@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-remove-slug",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Remove Slug String.",
   "main": "lib.js",
   "repository": {
@@ -24,8 +24,5 @@
   "readmeFilename": "README.md",
   "nbbpm": {
     "compatibility": "^1.2.0"
-  },
-  "dependencies": {
-    "mysql":"^2.14.0"
   }
 }
