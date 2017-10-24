@@ -23,5 +23,9 @@
             "hook": "filter:user.create",
             "method": "userCreate"
         }
+        {
+            "hook": "filter:group.update",
+            "method": "groupUpdate"
+        },
     ]
 }
