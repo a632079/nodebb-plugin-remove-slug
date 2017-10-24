@@ -1,11 +1,11 @@
 {
-  "name": "nodebb-plugin-remove-slug",
+  "name": "nodebb-plugin-remove-slug-hyper",
   "version": "0.0.3",
   "description": "Remove Slug String.",
   "main": "lib.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/a632079/nodebb-plugin-remove-slug"
+    "url": "https://github.com/tony199555/nodebb-plugin-remove-slug-hyper"
   },
   "keywords": [
     "nodebb",
