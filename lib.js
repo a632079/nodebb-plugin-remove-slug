@@ -39,8 +39,15 @@ plugin.categoryUpdate = function (data, callback) {
 }
 
 plugin.userCreate = function (data, callback) {
-	if (data && data.userslug)
-		data.userslug = slugify(data.userslug);
+	if (data && data.user.slug)
+		data.user.slug = slugify(data.user.slug);
+
+	callback(null, data);
+}
+
+plugin.categoryUpdate = function (data, callback) {
+	if (data && data.group && data.group.slug)
+		data.group.slug = slugify(data.group.slug);
 
 	callback(null, data);
 }
